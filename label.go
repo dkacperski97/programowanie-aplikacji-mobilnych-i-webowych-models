@@ -9,11 +9,12 @@ import (
 type (
 	LabelID string
 	Label   struct {
-		ID        LabelID `json:"id"`
-		Sender    string  `json:"sender"`
-		Recipient string  `json:"recipient"`
-		Locker    string  `json:"locker"`
-		Size      int     `json:"size"`
+		ID             LabelID `json:"id"`
+		Sender         string  `json:"sender"`
+		Recipient      string  `json:"recipient"`
+		Locker         string  `json:"locker"`
+		Size           int     `json:"size"`
+		AssignedParcel string  `json:"assignedParcel"`
 	}
 )
 
